@@ -1,0 +1,71 @@
+body {
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.container {
+    max-width: 1728px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.header {
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 26px;
+    padding-bottom: 54px;
+}
+.header-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-basis: 75%;
+}
+
+.header-logo {
+    display: block;
+    background-image: url(../images/dlogo.svg);
+    width: 227px;
+    height: 32px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-nav {
+    list-style-type: none;
+    display: flex;
+    padding-left: 0;
+    gap: 64px;
+}
+
+.header-nav a {
+    font-weight: 500;
+    font-size: 14px;
+    color: #1A1A1A;
+    text-decoration: none;
+}
+
+.header-nav a:hover {
+    color: #66A9CB;
+}
+
+
+.button {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.banner-box {
+    background-image: url(../images/foto1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    max-width: 1728px;
+    height: 678px;
+}
+
